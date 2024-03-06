@@ -80,6 +80,7 @@ public class MainActivity extends AppCompatActivity {
         editTextKQ.setText(chuoiKQ);
     }
     public void XuLyChia(View v){
+        //nhbhghghgh
 
 
         String soThu1 = editTextSo1.getText().toString();
