@@ -17,13 +17,13 @@ import androidx.core.view.WindowInsetsCompat;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-
+    ArrayList<String> dsTinhThanhVN;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ArrayList<String> dsTinhThanhVN;
+
         dsTinhThanhVN = new ArrayList<String>();
 
         dsTinhThanhVN.add("Thủ đô Hà Nội");
@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
         dsTinhThanhVN.add("Tính Ninh Thuận");
         dsTinhThanhVN.add("Tỉnh Quảng Bình");
         dsTinhThanhVN.add("Tỉnh Nghệ An");
-        dsTinhThanhVN.add("Tính Đồng Nai");
-
+        dsTinhThanhVN.add("Tỉnh Đồng Nai");
+        dsTinhThanhVN.add("Tỉnh Lâm Đồng");
         ArrayAdapter<String> adapterTinhThanhVN;
         adapterTinhThanhVN = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,dsTinhThanhVN);
         ListView lvTinhThanh =findViewById(R.id.lvDanhSach);
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         lvTinhThanh.setOnItemClickListener(BoLangNgheVaXL);
     }
     AdapterView.OnItemClickListener BoLangNgheVaXL= new AdapterView.OnItemClickListener(){
-        ArrayList<String> dsTinhThanhVN;
+
         @Override
         public  void onItemClick(AdapterView<?> adapterView ,View view, int i, long l){
             String strTenTinh = dsTinhThanhVN.get(i);
