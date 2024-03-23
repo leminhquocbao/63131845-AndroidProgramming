@@ -66,23 +66,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        rdbtn1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (isChecked) {
-
-                }
-            }
-        });
-
-        rdbtn2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (isChecked) {
-
-                }
-            }
-        });
         rdbtn1.setChecked(true);
     }
 }
