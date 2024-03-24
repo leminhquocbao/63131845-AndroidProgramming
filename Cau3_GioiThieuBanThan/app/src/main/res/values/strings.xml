@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">Cau3_GioiThieuBanThan</string>
+    <string name="app_name">
+        <style>
+                <font color="#54DACD">
+                    Giới Thiệu Bản Thân
+                </font>
+
+        </style>
+    </string>
 </resources>

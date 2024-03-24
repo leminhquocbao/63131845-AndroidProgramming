@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                     chieucao = Float.parseFloat(edtchieucao.getText().toString()) * 0.0254f;
                 } else {
                     chieucao = Float.parseFloat(edtchieucao.getText().toString()) / 100;
-                    cannang = Float.parseFloat(edtcannang.getText().toString())*1000;
+                    cannang = Float.parseFloat(edtcannang.getText().toString())/1000;
                 }
 
                 float bmi = cannang / (chieucao * chieucao);
