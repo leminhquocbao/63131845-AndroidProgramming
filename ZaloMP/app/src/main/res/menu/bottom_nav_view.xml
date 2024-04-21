@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Messenger"
+        android:id="@+id/navMess"
+        android:icon="@drawable/mess"/>
+    <item android:title="Catolo"
+        android:id="@+id/navCatolo"
+        android:icon="@drawable/catolo"/>
+    <item android:title="Application"
+        android:id="@+id/navApplication"
+        android:icon="@drawable/application"/>
+    <item android:title="Clock"
+        android:id="@+id/navClock"
+        android:icon="@drawable/clock"/>
+    <item android:title="Profile"
+        android:id="@+id/navPerson"
+        android:icon="@drawable/person"/>
+</menu>
