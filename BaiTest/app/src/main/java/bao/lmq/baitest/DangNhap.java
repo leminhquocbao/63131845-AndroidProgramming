@@ -19,7 +19,7 @@ public class DangNhap extends AppCompatActivity {
 
     }
     public void DangNhap(View v){
-        Intent iManHinh= new Intent(this, Cau3Fragment.class);
+        Intent iManHinh= new Intent(this, MainActivity.class);
 
         startActivity(iManHinh);
     }

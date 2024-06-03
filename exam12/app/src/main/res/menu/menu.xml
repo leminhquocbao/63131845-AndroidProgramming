@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Câu 1"
+        android:icon="@drawable/cau1"
+        android:id="@+id/cau1"/>
+    <item android:title="Câu 2"
+        android:icon="@drawable/cau2"
+        android:id="@+id/cau2"/>
+    <item android:title="Câu 3"
+        android:id="@+id/cau3"
+        android:icon="@drawable/cau3"/>
+    <item android:title="Câu 4"
+        android:icon="@drawable/cau4"
+        android:id="@+id/cau4"/>
+    <item android:title="Câu 5"
+        android:icon="@drawable/cau5"
+        android:id="@+id/cau5"/>
+
+</menu>

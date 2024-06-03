@@ -35,7 +35,7 @@ public class Cau2Fragment extends Fragment {
                 }
 
                 StringBuilder multiplicationTable = new StringBuilder();
-                for (int i = 1; i <= 9; i++) {
+                for (int i = 1; i <= 10; i++) {
                     multiplicationTable.append(number).append(" x ").append(i).append(" = ").append(number * i).append("\n");
                 }
                 txt.setText(multiplicationTable.toString());

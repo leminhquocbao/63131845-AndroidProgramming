@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@android:drawable/btn_dialog"
+        android:title="Home" />
+    <item android:title="Câu 1"
+        android:id="@+id/nav_cau1"
+        android:icon="@drawable/cau1"/>
+    <item android:title="Câu 2"
+        android:id="@+id/nav_cau2"
+        android:icon="@drawable/cau2"/>
+    <item android:title="Câu 3"
+        android:id="@+id/nav_cau3"
+        android:icon="@drawable/cau3" />
+    <item android:title="Câu 4"
+        android:id="@+id/nav_cau4"
+        android:icon="@drawable/cau4" />
+</menu>
